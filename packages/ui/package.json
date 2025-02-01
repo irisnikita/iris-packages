@@ -19,7 +19,8 @@
     "build-storybook": "storybook build",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "chromatic": "npx chromatic --project-token=chpt_e6160439002c9b0"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
