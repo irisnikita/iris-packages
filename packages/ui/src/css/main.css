@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --ir-background: 0 0% 100%;
+    --ir-foreground: 0 0% 3.9%;
+    --ir-card: 0 0% 100%;
+    --ir-card-foreground: 0 0% 3.9%;
+    --ir-popover: 0 0% 100%;
+    --ir-popover-foreground: 0 0% 3.9%;
+    --ir-primary: 0 0% 9%;
+    --ir-primary-foreground: 0 0% 98%;
+    --ir-secondary: 0 0% 96.1%;
+    --ir-secondary-foreground: 0 0% 9%;
+    --ir-muted: 0 0% 96.1%;
+    --ir-muted-foreground: 0 0% 45.1%;
+    --ir-accent: 0 0% 96.1%;
+    --ir-accent-foreground: 0 0% 9%;
+    --ir-destructive: 0 84.2% 60.2%;
+    --ir-destructive-foreground: 0 0% 98%;
+    --ir-border: 0 0% 89.8%;
+    --ir-input: 0 0% 89.8%;
+    --ir-ring: 0 0% 3.9%;
+    --ir-chart-1: 12 76% 61%;
+    --ir-chart-2: 173 58% 39%;
+    --ir-chart-3: 197 37% 24%;
+    --ir-chart-4: 43 74% 66%;
+    --ir-chart-5: 27 87% 67%;
+    --ir-radius: 0.5rem;
+  }
+  .dark {
+    --ir-background: 0 0% 3.9%;
+    --ir-foreground: 0 0% 98%;
+    --ir-card: 0 0% 3.9%;
+    --ir-card-foreground: 0 0% 98%;
+    --ir-popover: 0 0% 3.9%;
+    --ir-popover-foreground: 0 0% 98%;
+    --ir-primary: 0 0% 98%;
+    --ir-primary-foreground: 0 0% 9%;
+    --ir-secondary: 0 0% 14.9%;
+    --ir-secondary-foreground: 0 0% 98%;
+    --ir-muted: 0 0% 14.9%;
+    --ir-muted-foreground: 0 0% 63.9%;
+    --ir-accent: 0 0% 14.9%;
+    --ir-accent-foreground: 0 0% 98%;
+    --ir-destructive: 0 62.8% 30.6%;
+    --ir-destructive-foreground: 0 0% 98%;
+    --ir-border: 0 0% 14.9%;
+    --ir-input: 0 0% 14.9%;
+    --ir-ring: 0 0% 83.1%;
+    --ir-chart-1: 220 70% 50%;
+    --ir-chart-2: 160 60% 45%;
+    --ir-chart-3: 30 80% 55%;
+    --ir-chart-4: 280 65% 60%;
+    --ir-chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply ir-border-border;
+  }
+  body {
+    @apply ir-bg-background ir-text-foreground;
+  }
+}

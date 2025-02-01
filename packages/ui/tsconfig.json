@@ -1,8 +1,19 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
   "compilerOptions": {
-    "outDir": "dist"
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "vite.config.ts",
+    "**/stories/**",
+    "src/**/*.stories.ts"
+  ]
 }

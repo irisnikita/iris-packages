@@ -1,0 +1,40 @@
+# Proposed Directory Structure
+
+## src/
+
+- assets/
+  - images/
+  - icons/
+  - svgs/
+- components/
+  - layout/
+    - Header.tsx
+    - Footer.tsx
+  - forms/
+    - LoginForm.tsx
+    - SignupForm.tsx
+  - ui/
+    - Button.tsx
+    - Input.tsx
+- constants/
+  - colors.ts
+  - fonts.ts
+  - index.ts
+- css/
+  - global/
+    - main.css
+  - components/
+- providers/
+  - ConfigProvider.tsx
+  - AuthProvider.tsx
+- styled/
+  - GlobalStyle.tsx
+  - index.ts
+- test/
+  - components/
+    - Button.test.tsx
+    - Input.test.tsx
+  - App.test.tsx
+- themes/
+  - light.ts
+  - dark.ts
