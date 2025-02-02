@@ -23,6 +23,7 @@
     "chromatic": "npx chromatic --project-token=chpt_e6160439002c9b0"
   },
   "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-slot": "^1.1.1",
     "antd": "^5.23.2",
     "class-variance-authority": "^0.7.1",
