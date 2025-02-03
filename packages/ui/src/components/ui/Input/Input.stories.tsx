@@ -5,6 +5,14 @@ const meta: Meta<typeof Input> = {
   title: "Components/Input",
   component: Input,
   tags: ["autodocs"],
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "Displays a form input field or a component that looks like an input field.",
+      },
+    },
+  },
   argTypes: {
     type: {
       description: "Defines the input type.",
